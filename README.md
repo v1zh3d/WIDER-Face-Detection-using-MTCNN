@@ -1,4 +1,4 @@
-## WIDER-Face-Detection MTCNN 
+## WIDER-Face-Detection using MTCNN 
 **This is a tensorflow implementation of MTCNN for both training and testing of WIDER Face Detection.**
 
 ### Requirement
