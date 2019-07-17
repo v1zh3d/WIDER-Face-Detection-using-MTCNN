@@ -30,7 +30,7 @@ Similarly, after step 3 or step 4, you can run `python src/mtcnn_rnet_test.py` o
 ***notice: You should be at `ROOT_DIR/` if you want to run the following command.***
 
 You can run `python test_img.py YOUR_IMAGE_PATH --model_dir ./save_model/all_in_one/ --save_image True --save_name sample.jpg --save_file sample.txt` to test mtcnn with the provided model. 
-You can also provide your own training model directory to do the test. If there are multiple models in the directory, the program will automatically choose the model with the maximum iterations.
+You can also provide your own training model directory to do the test or use the `new_saver` model trained with less no. of epochs. If there are multiple models in the directory, the program will automatically choose the model with the maximum iterations.
 ### Results
 ![sample.jpg](./images/sample_test.jpg)
 
